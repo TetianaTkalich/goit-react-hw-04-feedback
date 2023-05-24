@@ -1,18 +1,30 @@
-/* .container {
-
-} */
-
-.title {
-    font-size: 30px;
-    margin-bottom: 30px;
+.numbers {
+    font-weight: 700;
 }
 
-.statistic {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 5px;
+.good,
+.neutral,
+.bad,
+.positive {
+    text-transform: capitalize;
+    margin: 0;
+    width: 200px;
+    padding: 16px;
+    display: block;
 }
 
-.value {
-    font-size: 20px;
+.good {
+    background-color: lightgreen;
+}
+
+.neutral {
+    background-color: lightyellow;
+}
+
+.bad {
+    background-color: lightpink;
+}
+
+.positive {
+    background-color: lightblue;
 }
